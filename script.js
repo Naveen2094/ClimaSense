@@ -1,4 +1,4 @@
-const apiKey = "796f8ea0bbbbfdd57069e1957a63afff";
+const apiKey = "API_KEY";
 let unit = "metric";
 
 function showLoading(show) {
