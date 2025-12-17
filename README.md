@@ -3,7 +3,7 @@
 **ClimaSense** is a modern, API-driven weather dashboard that delivers real-time climate information with a premium dark-green glassmorphism UI.  
 It allows users to search weather by city or current location and view detailed weather metrics in an intuitive dashboard.
 
-![ClimaSense Banner](images/home.png)
+![ClimaSense Banner](/img/CS_home.png)
 
 ---
 
@@ -27,20 +27,7 @@ It allows users to search weather by city or current location and view detailed 
 ## 📸 Screenshots
 
 ### 🏠 Dashboard View
-![Dashboard](images/dashboard.png)
-
-### 🔍 City Search
-![Search](images/search.png)
-
-### 📍 Location-Based Weather
-![Location](images/location.png)
-
-### 📅 5-Day Forecast
-![Forecast](images/forecast.png)
-
-### 📱 Mobile View
-![Mobile](images/mobile.png)
-
+![Dashboard](img/CS_home.png)
 ---
 
 ## 🛠️ Tech Stack
