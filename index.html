@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClimaSense</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">🌍 <span>ClimaSense</span></div>
+
+  <div class="search-box">
+    <input type="text" id="cityInput" placeholder="Search city...">
+    <button onclick="getWeatherByCity()">Search</button>
+  </div>
+
+  <div class="actions">
+    <button onclick="getLocationWeather()">📍 Locate Me</button>
+    <button onclick="toggleUnit()">°C / °F</button>
+  </div>
+</header>
+
+<main class="dashboard">
+
+  <div id="loading">Loading weather data...</div>
+  <div id="error"></div>
+
+  <!-- Main Weather Card -->
+  <section id="weather" class="weather-main hidden">
+   <div class="left">
+  <h2 id="location"></h2>
+  <div class="temp-row">
+    <svg id="weatherIcon" width="80" height="80"></svg>
+    <h1 id="temperature"></h1>
+  </div>
+  <p id="condition"></p>
+</div>
+
+  </section>
+
+  <!-- Metric Cards -->
+  <section class="cards">
+    <div class="card">💧 <span>Humidity</span><strong id="humidity"></strong>%</div>
+    <div class="card">🌬 <span>Wind</span><strong id="wind"></strong> m/s</div>
+    <div class="card">🔆 <span>Pressure</span><strong id="pressure"></strong> hPa</div>
+    <div class="card">👁 <span>Visibility</span><strong id="visibility"></strong> km</div>
+    <div class="card">🌅 <span>Sunrise</span><strong id="sunrise"></strong></div>
+    <div class="card">🌇 <span>Sunset</span><strong id="sunset"></strong></div>
+  </section>
+
+  <!-- Forecast -->
+  <section id="forecast">
+    <h3>5-Day Forecast</h3>
+    <div id="forecastCards"></div>
+  </section>
+
+  <section id="history" class="history">
+  <h3>Recent Searches</h3>
+  <ul id="historyList"></ul>
+</section>
+
+
+  <div id="skeleton" class="skeleton hidden">
+  <div class="skeleton-main"></div>
+  <div class="skeleton-cards">
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+  </div>
+</div>
+
+
+</main>
+
+<footer>
+  ClimaSense © 2025
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
