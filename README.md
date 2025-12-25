@@ -91,3 +91,15 @@ ClimaSense/
 ├── about.html        # About page
 └── images/           # Assets folder
     └── screenshots/  # Images for README
+
+
+---
+```
+## 📄 License
+
+This project is developed for educational purposes.
+
+## 📬 Contact
+
+**Naveen Kumar P** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naveenkumarp20/)
+
